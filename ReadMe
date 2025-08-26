@@ -1,0 +1,105 @@
+SmartStudentRental/
+│
+├── backend/                        
+│   ├── controllers/               
+│   │   ├── adminController.js
+│   │   ├── landlordController.js
+│   │   ├── studentController.js
+│   ├── models/                    
+│   │   ├── User.js
+│   │   ├── Property.js
+│   │   ├── Booking.js
+│   │   ├── Message.js
+│   ├── routes/                    
+│   │   ├── adminRoutes.js
+│   │   ├── landlordRoutes.js
+│   │   ├── studentRoutes.js
+│   │   ├── authRoutes.js
+│   ├── middleware/                
+│   │   ├── authMiddleware.js
+│   │   ├── roleMiddleware.js
+│   ├── services/                 
+│   │   ├── firebaseService.js
+│   │   ├── notificationService.js
+│   ├── websocket/                 
+│   │   ├── socketHandler.js
+│   ├── config/                    
+│   │   ├── db.js                  
+│   │   ├── firebaseConfig.js
+│   ├── database/
+│   │   ├── schema.sql             
+│   │   ├── seed.sql               
+│   ├── app.js                     
+│   ├── .env                       
+│   ├── package.json               
+│   └── README.md                  
+│
+├── frontend-web/                  
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/            
+│   │   ├── context/               
+│   │   ├── hooks/                 
+│   │   ├── pages/
+│   │   │   ├── admin/
+│   │   │   │   ├── Dashboard.js
+│   │   │   │   ├── UserManagement.js
+│   │   │   │   ├── Reports.js
+│   │   │   │   └── Settings.js
+│   │   │   ├── landlord/
+│   │   │   │   ├── Dashboard.js
+│   │   │   │   ├── AddProperty.js
+│   │   │   │   ├── ManageProperties.js
+│   │   │   │   ├── Messages.js
+│   │   │   │   └── Profile.js
+│   │   │   ├── student/
+│   │   │   │   ├── Dashboard.js
+│   │   │   │   ├── BrowseRooms.js
+│   │   │   │   ├── MyBookings.js
+│   │   │   │   ├── Chat.js
+│   │   │   │   ├── Notifications.js
+│   │   ├── routes/
+│   │   ├── services/              
+│   │   ├── utils/                 
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── .env
+│   ├── package.json
+│   └── README.md
+│
+├── frontend-mobile/               
+│   ├── assets/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── screens/
+│   │   │   ├── Admin/
+│   │   │   │   ├── Dashboard.js
+│   │   │   ├── Landlord/
+│   │   │   │   ├── Dashboard.js
+│   │   │   ├── Student/
+│   │   │   │   ├── BrowseRooms.js
+│   │   │   │   ├── MyBookings.js
+│   │   │   │   ├── Chat.js
+│   ├── navigation/
+│   ├── services/
+│   ├── utils/
+│   ├── App.js
+│   ├── .env
+│   ├── package.json
+│   └── README.md
+│
+├── docs/                         
+│   ├── wireframes/               
+│   ├── problem-statement.md       
+│   ├── user-flow.md               
+│   ├── api-docs.md                
+│   └── README.md                  
+│
+├── dataset/                       
+│   ├── demo_rooms.csv             
+│   ├── sample_users.csv           
+│
+├── .gitignore
+├── README.md
+└── LICENSE
